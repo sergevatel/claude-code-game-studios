@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "game-studios",
+  "description": "XCITE game-studio agent architecture (specialist subagents + full-SDLC skills).",
+  "owner": {
+    "name": "Serge Vatel",
+    "url": "https://github.com/sergevatel"
+  },
+  "plugins": [
+    {
+      "name": "game-studios",
+      "source": "./",
+      "description": "49 specialist subagents and 73 SDLC skills for game development (design, GDD, sprint, QA, UX, performance, release).",
+      "homepage": "https://github.com/sergevatel/claude-code-game-studios",
+      "license": "MIT",
+      "keywords": ["game-dev", "agents", "skills", "sdlc", "gdd", "unity", "godot"]
+    }
+  ]
+}
