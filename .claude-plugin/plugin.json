@@ -1,7 +1,7 @@
 {
   "name": "game-studios",
   "description": "XCITE game-studio agent architecture: 49 specialist subagents and 73 SDLC skills spanning design, GDD authoring, systems mapping, sprint planning, QA, UX, performance, and release.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Serge Vatel",
     "url": "https://github.com/sergevatel"
@@ -10,6 +10,10 @@
   "repository": "https://github.com/sergevatel/claude-code-game-studios",
   "license": "MIT",
   "skills": "./.claude/skills/",
+  "commands": [
+    "./.claude/commands/ui-polish.md",
+    "./.claude/commands/unity-debug.md"
+  ],
   "agents": [
     "./.claude/agents/accessibility-specialist.md",
     "./.claude/agents/ai-programmer.md",
